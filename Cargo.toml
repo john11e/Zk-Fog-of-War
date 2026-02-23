@@ -1,0 +1,23 @@
+[workspace]
+resolver = "2"
+members = [
+    "contracts",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[workspace.dependencies]
+soroban-sdk = "23.0.0"
+
+[profile.release]
+opt-level = "z"     # Optimize for smallest binary size (important for 64KB limit)
+overflow-checks = true
+debug = 0
+strip = "symbols"
+debug-assertions = false
+panic = "abort"
+codegen-units = 1
+lto = true
