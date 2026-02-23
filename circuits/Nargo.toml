@@ -1,0 +1,10 @@
+[package]
+name = "zero_shot"
+type = "bin"
+authors = ["Stellar-Hacker"]
+# Protocol 25 works best with Noir 0.30+
+compiler_version = ">=0.30.0"
+
+[dependencies]
+# Standard library is included by default for BN254/Poseidon
+poseidon = { tag = "v0.1.1", git = "https://github.com/noir-lang/poseidon" }
