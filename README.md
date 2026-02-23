@@ -5,15 +5,6 @@
 Zero-Shot is a turn-based fog-of-war strategy game built on **Stellar Protocol 25 / Soroban**, where every fire action is backed by a **zero-knowledge proof** (Noir UltraHonk + BN254). Neither player can fake a hit, lie about a miss, or reveal their unit position — the chain enforces it all.
 
 ---
-
-## 🔗 Live Deployment
-
-| Resource | Link |
-|---|---|
-| **Hub contract** | `CB4VZAT2U3UC6XFK3N23SKRF2NDCMP3QHJYMCHHFMZO7MRQO6DQ2EMYG` |
-| **Network** | Stellar Testnet — Protocol 25 |
-| **Explorer** | [stellar.expert/testnet](https://stellar.expert/explorer/testnet) |
-
 ---
 
 ## 🧠 How It Works
@@ -282,4 +273,5 @@ MIT — see `LICENSE` for details.
 ---
 
 *Built for the Stellar Protocol 25 Hackathon. All XLM in this demo is testnet currency.*
+
 
