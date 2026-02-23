@@ -276,9 +276,10 @@ MIT — see `LICENSE` for details.
 
 | Name | Role |
 |---|---|
-| *(your name)* | Full-stack + ZK circuits |
-| *(co-builder)* | Smart contract + Soroban |
+| John Thiga| Full-stack + ZK circuits |
+| Arnold Muchiri | Smart contract + Soroban |
 
 ---
 
 *Built for the Stellar Protocol 25 Hackathon. All XLM in this demo is testnet currency.*
+
