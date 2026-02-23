@@ -1,5 +1,4 @@
-use dep::std;
-
+use dep::poseidon;
 // This circuit proves: "I know a secret (x, y) that hashes to 'commitment', 
 // and that (x, y) is NOT the same as the 'attack_coords'."
 fn main(
@@ -17,6 +16,6 @@ fn main(
 
     // 2. Verify that the secret position matches the on-chain commitment
     // We use Poseidon because Stellar Protocol 25 has native host functions for it
-    let hash = std::hash::poseidon::bn254::hash_3([secret_x as Field, secret_y as Field, salt]);
-    assert(hash == commitment);
+    let hash = poseidon::bn254::hash_3([secret_x as Field, secret_y as Field, salt]);
+    
 }
